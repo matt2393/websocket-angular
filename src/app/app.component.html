@@ -1,0 +1,9 @@
+
+
+<form #notificacion="ngForm" (submit)="mess()">
+  <input type="text" name="titulo" #titulo="ngModel" [(ngModel)]="notif.titulo" placeholder="Titulo">
+
+  <input type="text" name="mensaje" #mensaje="ngModel" [(ngModel)]="notif.mensaje" placeholder="Mensaje">
+
+  <input type="submit">
+</form>
